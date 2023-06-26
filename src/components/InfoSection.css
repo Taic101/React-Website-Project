@@ -1,0 +1,22 @@
+.info-section {
+    background-color: var(--mainColor);
+    display: flex;
+    text-align: center;
+}
+
+.info-segment {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width:25%;
+    display:inline-block;
+    margin: 30px 2rem;
+    color: var(--textColor);
+}
+
+@media only screen and (max-width: 900px) {
+    .info-segment {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}

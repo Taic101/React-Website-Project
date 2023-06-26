@@ -1,0 +1,80 @@
+.Hero {
+    background-image: url("../assets/arrangement-with-delicious-traditional-thai-tea.png");
+    /* background image by FreePik */
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+.Hero-text {
+    margin-top: 150px;
+    float: left;
+    margin-left: 60px;
+    max-width: 50%;
+    color: var(--textColor);
+}
+
+.Hero-text h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+    --x-offset: -0.0625em;
+    --y-offset: 0.0625em;
+    --stroke: 0.025em;
+    --background-color: black;
+    --stroke-color: pink;
+  
+    text-shadow: 
+        
+        var(--x-offset)
+        var(--y-offset)
+        0px
+        var(--background-color), 
+        
+        calc( var(--x-offset) - var(--stroke) )
+        calc( var(--y-offset) + var(--stroke) )
+        0px
+        var(--stroke-color);
+}
+
+.Hero-text h2{
+    text-shadow: 1px 2px 7px rgba(0, 0, 0, 1);
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.Hero-text button {
+    border-radius: 12px;
+    border: 2px solid var(--mainColorLight);
+    color: var(--mainColor);
+    background-color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.Hero-text button:hover {
+    background-color: var(--mainColorLight);
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+.Hero-text span {
+    color: var(--mainColorLight);
+}
+
+.Hero-text h2 span {
+    color: var(--mainColorLight);
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .Hero {
+        background-color: var(--mainColor);
+        background-image:none;
+    }
+
+    .Hero-text {
+        text-align: center;
+        max-width: 80%;
+    }
+}
