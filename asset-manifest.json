@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-Website-Project/static/css/main.35e33745.css",
+    "main.js": "/React-Website-Project/static/js/main.c26440eb.js",
+    "static/media/arrangement-with-delicious-traditional-thai-tea.png": "/React-Website-Project/static/media/arrangement-with-delicious-traditional-thai-tea.18596970c49ad38cffc3.png",
+    "static/media/green-tea.png": "/React-Website-Project/static/media/green-tea.e6cd5f9f507c72962cd2.png",
+    "static/media/green-bubble-tea.png": "/React-Website-Project/static/media/green-bubble-tea.520d8da91f666af0c1e4.png",
+    "static/media/shop.png": "/React-Website-Project/static/media/shop.5528512c404919db420b.png",
+    "static/media/bubble-tea.png": "/React-Website-Project/static/media/bubble-tea.6bc519845fb687db73f9.png",
+    "index.html": "/React-Website-Project/index.html",
+    "main.35e33745.css.map": "/React-Website-Project/static/css/main.35e33745.css.map",
+    "main.c26440eb.js.map": "/React-Website-Project/static/js/main.c26440eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e33745.css",
+    "static/js/main.c26440eb.js"
+  ]
+}
